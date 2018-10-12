@@ -13,7 +13,8 @@ To use the web part follow the below steps:-
 3) Go to *LPTiles* list and create new two lookup columns named *Tile Type* and *Category*. Configurations are shown in the screen shot for both the columns.
 4) Navigate to the cloned repository folder
 5) Open your system's terminal on that folder
-6) Now run *npm install* command to install all the npm packages
+6) In your terminal, Navigate to the web part folder inside the cloned repository
+7) Now run *npm install* command to install all the npm packages
 
 # Column Configuration
 
