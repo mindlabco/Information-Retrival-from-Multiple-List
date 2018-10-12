@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "additional-information-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/additionalInformation/AdditionalInformationWebPart.js",
+          "manifest": "./src/webparts/additionalInformation/AdditionalInformationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {   
+      "angular": {
+        "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.min.js",
+        "globalName": "angular"
+      }
+  },
+  "localizedResources": {
+    "AdditionalInformationWebPartStrings": "lib/webparts/additionalInformation/loc/{locale}.js"
+  }
+}
